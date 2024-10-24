@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .program, .workout {
+    margin-bottom: 50px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  .footer {
+    background-color: #111; /* Light black */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer .footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .footer .footer-links li {
+    margin: 0 10px;
+  }
+  
+  .footer .footer-links a {
+    color: #FF8C00; /* Secondary Orange */
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer .footer-links a:hover {
+    color: #ffffff;
+  }

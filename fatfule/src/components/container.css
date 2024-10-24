@@ -1,0 +1,109 @@
+.body{
+    text-decoration: none;
+}
+
+.card{
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    max-width: 200px;
+    min-width: 157px;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    height: 19vh;
+    transition: top 0.3s;
+    justify-content: center;
+  }
+  
+  .card-content {
+    position: relative;
+  }
+  
+  img {
+    max-width: 100%; /* Ensure the image doesn't exceed the width of the card */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: inherit
+  }
+  
+  .card:hover .btn {
+    bottom: 0px; 
+  }
+
+  .suggestions {
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1000;
+    width: 200px;
+  }
+  
+  .suggestions div {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .suggestions div:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+
+  .btn{
+    background-color: #FF8C00;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    bottom: -7.5vh;
+    transition: bottom 0.3s;
+    text-decoration: none;
+  }
+
+  .muscle-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .muscle-btn, .level-btn {
+    padding: 10px 15px;
+    border: none;
+    background-color: #fd7921;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none
+  }
+  
+  .muscle-btn:hover, .level-btn:hover {
+    background-color: #0056b3;
+  }
+
+  .content{
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+    
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+  }
